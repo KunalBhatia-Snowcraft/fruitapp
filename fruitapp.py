@@ -15,8 +15,7 @@ def main():
     total_price = price * quantity
     
    
-
-    st.write("Total price for {quantity} {fruit} is ${total_price}")
+    st.write(f"Total price for {quantity} {fruit} is ${total_price.2f}")
 
 if __name__ == "__main__":
     main()
