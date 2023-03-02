@@ -13,9 +13,8 @@ def main():
     quantity = st.slider("Select Quantity", 1, 10)
 
     total_price = price * quantity
-    
-   
-    st.write(f"Total price for {quantity} {fruit} is ${total_price.2f}")
+
+    st.write(f"Total price for {quantity} {fruit} is ${total_price:.2f}")
 
 if __name__ == "__main__":
     main()
