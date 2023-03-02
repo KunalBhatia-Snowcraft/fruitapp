@@ -10,7 +10,7 @@ def main():
     else:
         price = 0.5
 
-    quantity = st.slider("Select Quantity", 1, 10)
+    quantity = st.slider("Select Quantity", 1, 100)
 
     total_price = price * quantity
 
